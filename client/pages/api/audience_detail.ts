@@ -100,6 +100,7 @@ export default async function handler(req, res) {
       })),
     ]);
 
+    console.log("basic",basic)
     if (basic?.data?.Identity?.nik?.length) {
       basic.data["historiTransaksi"] = {
         historiTransaksiHistory: trx.data.list,
