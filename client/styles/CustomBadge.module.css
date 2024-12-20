@@ -1,0 +1,21 @@
+.custom-badge{
+    padding: .3rem 4rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold
+}
+
+.custom-badge.yellow {
+    background-color: #ffb123;
+    color: #fff;
+}
+
+.custom-badge.blue{
+    background-color: #00a5a5;
+    color: #fff;
+}
+
+.custom-badge.gray {
+    background-color: #a7a7a7;
+    color: #fff;
+}

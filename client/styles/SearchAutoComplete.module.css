@@ -1,0 +1,29 @@
+.search-auto-complete{
+    position: relative;
+}
+
+.search-auto-complete>#search-result{
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    /* padding: 1rem; */
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, .2);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.search-auto-complete>#search-result>ul{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+.search-auto-complete>#search-result>ul li a{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.search-auto-complete>#search-result>ul li:hover a {
+    background: rgb(168, 168, 168);
+    color: #fff;
+}
